@@ -10,6 +10,7 @@ namespace AjaxPageList.Controllers
 {
     public class HomeController : Controller
     {
+        //分页
         public List<ProductViewModel> list = new List<ProductViewModel>();
         public List<Catalog> catalogList = new List<Catalog>();
         public HomeController()
